@@ -14,7 +14,7 @@
         transition-all
         duration-500
       "
-      :class="[y >= 50 ? 'h-14' : 'h-20']"
+      :class="[y >= 50 ? 'h-14 drop-shadow-xl' : 'h-20 drop-shadow-none']"
     >
       <img
         class="h-12 transition ease-out duration-500"
@@ -75,7 +75,7 @@
       </nav>
     </header>
 
-    <section class="min-h-screen bg-green-100"></section>
+    <section class="min-h-screen bg-white"></section>
   </body>
 </template>
 
